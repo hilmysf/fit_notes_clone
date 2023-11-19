@@ -1,0 +1,32 @@
+name: fit_notes
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter_screenutil: 5.6.0
+  get_storage: 2.1.1
+  intl: 0.18.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: 2.0.3
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Bold.ttf
+        - asset: fonts/Montserrat-Italic.ttf
+          style: italic
+        - asset: fonts/Montserrat-Regular.ttf
+          weight: 700
+
